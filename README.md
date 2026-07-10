@@ -18,5 +18,5 @@ npx serve .
 
 ## Kontent eslatmasi
 
-Mentor bo‘limidagi vaqtinchalik portretni Dilshod Mannopovning rasmiy yuqori sifatli portretiga almashtirish tavsiya etiladi. Narxlar amaldagi sayt ma’lumotlari asosida qo‘yilgan; nashrdan oldin tasdiqlash kerak.
+Saytdagi faoliyat yillari va qatnashchilar soni Global Trainings markazining 2026-yildagi rasmiy sahifasi asosida berilgan. Aniq kurs narxi, davomiyligi va tarkibi administrator bilan tasdiqlanadi. Saytda begona shaxsni ustoz sifatida ko'rsatadigan vaqtinchalik portret ishlatilmaydi.
 
