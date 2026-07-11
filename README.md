@@ -1,6 +1,6 @@
 # Global Trainings redesign
 
-Global Trainings psixologik kurslar markazi uchun zamonaviy, responsive landing page.
+Global Trainings uchun mistik, ochiq va minimal responsive landing page. Vizual yo'nalish moviy-binafsha tong manzarasi, sokin siluet va yumshoq scroll harakatlariga asoslangan.
 
 ## Ishga tushirish
 
@@ -13,10 +13,10 @@ npx serve .
 ## Tuzilma
 
 - `index.html` — sahifa kontenti va semantik tuzilma
-- `styles.css` — purple dizayn tizimi, responsive layout va animatsiyalar
-- `script.js` — scroll reveal, progress, counter, FAQ va mobil menyu
+- `styles.css` — atmosferik vizual tizim, responsive layout va animatsiyalar
+- `script.js` — parallax, scroll reveal, kurslar accordion'i, metodika holatlari, FAQ va mobil menyu
 
 ## Kontent eslatmasi
 
-Saytdagi faoliyat yillari va qatnashchilar soni Global Trainings markazining 2026-yildagi rasmiy sahifasi asosida berilgan. Aniq kurs narxi, davomiyligi va tarkibi administrator bilan tasdiqlanadi. Saytda begona shaxsni ustoz sifatida ko'rsatadigan vaqtinchalik portret ishlatilmaydi.
+Kurs nomlari, SHIFO davomiyligi, faoliyat yili va aloqa havolalari `globaltrainings.uz` sahifalaridan olingan. Jadval sanalari uydirilmaydi — foydalanuvchi rasmiy jadval sahifasiga o'tadi. Mustaqil tasdiqlanmagan qatnashchi/natija statistikasi ishlatilmagan. Tibbiy da'volar marketing matniga aylantirilmagan va ta'limiy dasturlar uchun aniq cheklov berilgan.
 
