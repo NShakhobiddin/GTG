@@ -247,6 +247,34 @@ document.querySelectorAll(".accordion-item button").forEach((button) => {
   });
 });
 
+const applicationForm = document.querySelector("[data-application-form]");
+const formStatus = document.querySelector("[data-form-status]");
+
+if (applicationForm) {
+  applicationForm.addEventListener("submit", (event) => {
+    event.preventDefault();
+    if (!applicationForm.reportValidity()) return;
+
+    const data = new FormData(applicationForm);
+    const name = String(data.get("name") || "").trim();
+    const phone = String(data.get("phone") || "").trim();
+    const course = String(data.get("course") || "").trim();
+    const message = String(data.get("message") || "").trim();
+    const telegramMessage = [
+      "Global Trainings saytidan yangi ariza",
+      `Ism: ${name}`,
+      `Telefon: ${phone}`,
+      `Yoʻnalish: ${course}`,
+      message ? `Savol yoki maqsad: ${message}` : "",
+    ]
+      .filter(Boolean)
+      .join("\n");
+    const telegramUrl = `https://t.me/Global_Admin19?text=${encodeURIComponent(telegramMessage)}`;
+    if (formStatus) formStatus.textContent = "Telegram ochilmoqda…";
+    window.location.href = telegramUrl;
+  });
+}
+
 const methodVisual = document.querySelector("[data-method-visual]");
 const methodCore = methodVisual?.querySelector(".method-core");
 const methodLabel = methodVisual?.querySelector("[data-method-label]");
